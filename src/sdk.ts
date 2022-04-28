@@ -36,6 +36,10 @@ const completionSpec: Fig.Spec = {
           description: "Run all database related settings",
         },
         {
+          name: "data:import",
+          description: "Imports all CSV data into the database",
+        },
+        {
           name: "transfer:generate",
           description: "Generate all transfers",
         },
