@@ -24,6 +24,10 @@ const completionSpec: Fig.Spec = {
           description: "Clear all cached files",
         },
         {
+          name: "queue:worker:start -s",
+          description: "Runs all the workers",
+        },
+        {
           name: "router:cache:warm-up:merchant-portal",
           description: "Clear cache for merchant portal",
         },
