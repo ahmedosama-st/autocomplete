@@ -13,7 +13,7 @@ const completionSpec: Fig.Spec = {
   subcommands: [
     {
       name: "cli",
-      description: "Enter CLI mode",
+      description: "Enter into CLI mode",
     },
     {
       name: "console",
