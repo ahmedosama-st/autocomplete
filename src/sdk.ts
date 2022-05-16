@@ -8,8 +8,8 @@ const deploymentFiles: Fig.Generator = {
 };
 
 const completionSpec: Fig.Spec = {
-  name: "docker/sdk",
-  description: "An autocompleter for spryker docker sdk",
+  name: "sdk",
+  description: "An autocomplete tool for spryker docker sdk",
   subcommands: [
     {
       name: "cli",
